@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Ghibli</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img  class="header__logo" src="./dist/images/logos/logo.png" alt="Ghibli">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">Assine agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__content__branding">
+                <img src="./dist/images/logos/logo.png" alt="Disney +">
+            </div>
+            <h3 class="titledois--small">
+                Filmes Clássicos
+            </h3>
+            <p>
+                <a href="#" class="link-text">Assistir filmes do Studio Ghibli</a>
+                <br>
+                <span class="textdois">
+                    R$ 27,90/mês ou R$ 279,90/ano à vista+
+                </span>
+            </p>
+            <ul class="hero__content__combos">
+                <li class="hero__content__combos__combo">
+                    <img src="./dist/images/logos/logo.png" alt="Disney+ - Star+ Combo+">
+                    <button class="button">Assine agora</button>
+                    <span class="textdois">R$ 27,90/mês*</span>
+                </li>
+                <li class="hero__content__combos__combo">
+                    <img src="./dist/images/logos/logoplus.png" alt="Disney+ - Star+ Combo+">
+                    <button class="button">Assine agora</button>
+                    <span class="textdois">R$ 45,90/mês*</span>
+                </li>
+            </ul>
+            <p class="textdois">
+                *O preço pode variar caso a assinatura seja feita atraves de outras plataformas.
+            </p>
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
+                ASSISTA AGORA MESMO
+            </button>
+            <button data-tab-button="populares" class="shows__tabs__button">
+                Mais populares
+            </button>
+            <button data-tab-button="star_plus" class="shows__tabs__button">
+                FILMES DO STUDIO
+            </button>
+        </nav>
+        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/chihiro.png" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/assista/vidas.jpg" alt="Lobisomen">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/assista/conto princesa.jpg" alt="Sem Limites">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/assista/contos.jpg" alt="The Santa Clauses">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/assista/reino gatos.jpg" alt="Willow">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/assista/susurros.jpg" alt="Desencantada">
+            </li>
+        </ul>
+        <ul data-tab-id="populares" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/populares/castelo.jpg" alt="castelo">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/populares/kiki.jpg" alt="kiki">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/populares/mononoke.jpg" alt="totoro">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/populares/ponyo.jpg" alt="mononoke">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/populares/porco.jpg" alt="ponyo">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/populares/totoro.jpg" alt="porco">
+            </li>
+        </ul>
+        <ul data-tab-id="star_plus" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/outros/ceu.jpg" alt="marnie">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/outros/kokuriko.jpg"  alt="vale">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/outros/marnie.jpg" alt="oceano">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/outros/memorias.jpg" alt="ceu">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/outros/oceano.jpg" alt="kokuriko">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/outros/vale.jpg" alt="The Kardashians">
+            </li>
+        </ul>
+    </section>
+    <section class="plans">
+        <h2 class="title--big">RANK FILMES MAIS ADORADOS</h2>
+        <ul class="plans__list">
+            <li class="plans__list__item">
+                <img src="./dist/images/populares/ponyo.jpg" alt="ponyo">
+                <strong class="title--small">PONYO</strong>
+                <p class="text--big">
+                    O garoto Sousuke encontra um peixinho dourado preso em uma garrafa e decide libertá-lo, sem saber que se trata da deusa do mar Ponyo.
+                </p>
+                <button class="button">Assista agora</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="./dist/images/chihiro.png" alt="chihiro">
+                <strong class="title--small">A VIAGEM DE CHIHIRO</strong>
+                <p class="text--big">
+                    Chihiro e seus pais estão se mudando para uma cidade diferente. A caminho da nova casa, o pai decide pegar um atalho. Eles se deparam com uma mesa repleta de comida, embora ninguém esteja por perto.
+                </p>
+                <button class="button">Assista agora</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="./dist/images/populares/kiki.jpg" alt="kiki">
+                <strong class="title--small">SERVIÇO DE ENTREGAS DA KIKI</strong>
+                <p class="text--big">
+                    Kiki parte para um aprendizado de um ano, acompanhada por seu gato preto. A um comando de sua vassoura mágica, ela vai parar na charmosa cidadezinha de Moreoastal.
+                </p>
+                <button class="button">Assista agora</button>
+            </li>
+        </ul>
+        <p class="text--small">
+            *Assine agora mesmo e assista a esses filmes! O preço pode variar caso a assinatura seja feita através de outras plataformas.
+        </p>
+    </section>
+    <section class="image-text-section">
+        <img src="./dist/images/chihiro.png" alt="chihiro">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Meu filme favorito do Studio Ghibli</h2>
+            <p class="text--big">
+                Chihiro e seus pais estão se mudando para uma cidade diferente. A caminho da nova casa, o pai decide pegar um atalho. Eles se deparam com uma mesa repleta de comida, embora ninguém esteja por perto. Chihiro sente o perigo, mas seus pais começam a comer. Quando anoitece, eles se transformam em porcos. Agora, apenas Chihiro pode salvá-los.
+            </p>
+        </div>
+    </section>
+    <section class="image-text-section image-text-section--image-full-width">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./dist/images/logos/gliblicel.png"/>
+            <img src="./dist/images/logos/glibi.png" alt="Ghibli">
+        </picture>
+        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
+            <h2 class="titledois">Um dos Studios mais clássicos de filmes.</h2>
+            <p class="text--black">
+                O Studio Ghibli é um estúdio de animação japonês, sediado em Koganei, Tóquio. Fundado em 1985, o estúdio já produziu 21 longas de animação, sendo o primeiro O Castelo no Céu (1986) e o mais recente As Memórias de Marnie (2014).
+
+O Studio Ghibli foi fundado em 1985 por Hayao Miyazaki, Isao Takahata, Toshio Suzuki e Yasuyoshi Tokuma, logo após o sucesso de Nausicaä do Vale do Vento, no ano anterior. <p class="text--black"> 
+    O estúdio lançou seu primeiro filme, O Castelo no Céu, no ano seguinte. O logotipo da empresa é o Totoro, o personagem do filme Meu Amigo Totoro, lançado em 1988. Com exceção de seis produções, todos os filmes do estúdio foram dirigidos por Hayao Miyazaki e Isao Takahata. Toshio Suzuki, por sua vez, é o produtor da maioria deles. Em 2001, o Museu Ghibli, um museu dedicado as obras do estúdio, foi inaugurado. </p>
+        </div>
+    </section>
+    <section class="available-devices">
+        <h2 class="title">Nesse blog disponibilizamos filmes do Studio Ghibli para os seguintes dispositivos:</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="Computador">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windons</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/tv.png" alt="TV">
+                <h4 class="title--small">TV</h4>
+                <ul class="text">
+                    <li>Amazon Fire TV</li>
+                    <li>Amazon Fire TV</li>
+                    <li>Apple TV</li>
+                    <li>Chromecast</li>
+                    <li>TVs LG</li>
+                    <li>Roku</li>
+                    <li>Samsung</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/videogames.png" alt="Videogames">
+                <h4 class="title--small">Videogames</h4>
+                <ul class="text">
+                    <li>PS4</li>
+                    <li>PS5</li>
+                    <li>Xbox One</li>
+                    <li>Xbox Series X</li>
+                    <li>Xbox Series S</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/celular.png" alt="Celular">
+                <h4 class="title--small">Celular</h4>
+                <ul class="text">
+                    <li>Tablets Amazon Fire</li>
+                    <li>Celulares e Tablets Android</li>
+                    <li>iPhone e iPad</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="title">Perguntas Frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question title--small" data-faq-question>
+                    O que está incluído na assinatura Ghibli?
+                </div>
+                <div class="faq__questions__item__answer title--small">
+                    O Disney+ oferece:
+                    <p><span class="faq__questions__item__answer text">• Experiência de entretenimento exclusiva.</span></p>
+                    <p><span class="faq__questions__item__answer text">• As melhores histórias da Disney, Pixar, Marvel, Star Wars e National Geographic, tudo em um só lugar.</span></p>
+                    <p><span class="faq__questions__item__answer text">• Groupwatch: assista junto com amigos ou familiares, mesmo separados.</span></p>
+                    <p><span class="faq__questions__item__answer text">• Downloads ilimitados em até 10 dispositivos compatíveis.</span></p>
+                    <p><span class="faq__questions__item__answer text">• Mais de 300 títulos em 4K UHD e HDR.</span></p>
+                    <p><span class="faq__questions__item__answer text">• A possibilidade de assistir em até 4 dispositivos compatíveis simultaneamente sem custo adicional.</span></p>
+                    <p><span class="faq__questions__item__answer text">• IMAX Enhanced: disponível para alguns títulos da Marvel em dispositivos compatíveis com o Disney+.</span></p>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question title--small" data-faq-question>
+                    Já tem a assinatura e quer mudar de plano?
+                </div>
+                <div class="faq__questions__item__answer title--small">
+                    Ao assinar o Combo+:
+                    <p><span class="faq__questions__item__answer text">• O valor da sua assinatura existente (anual ou mensal) será descontado do preço do Combo+.</span></p>
+                    <p><span class="faq__questions__item__answer text">• Se você assina o plano mensal, o valor que você paga mensalmente será descontado do preço do Combo+.</span></p>
+                    <p><span class="faq__questions__item__answer text">• Se você assina o plano anual, dividiremos o valor que você já pagou em 12 vezes e descontaremos esse valor do preço do Combo+ mensalmente.</span></p>
+                    <p><span class="faq__questions__item__answer text">• Se você assina o plano anual, dividiremos o valor que você já pagou em 12 vezes e descontaremos esse valor do preço do Combo+ mensalmente.</span></p>
+                    <p><span class="faq__questions__item__answer text">• Lembre-se: você pode cancelar a assinatura quando quiser.</span></p>
+                    <p class="text--big">No momento, apenas a assinatura mensal do Combo+ está disponível.</p>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question title--small" data-faq-question>
+                    Quais formas de pagamento posso utilizar?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Você pode utilizar: cartão de débito, cartão de crédito, PayPal, Mercado Pago, e também empresas parceiras como Google Play Store, App Store da Apple; Mercado Livre e provedores locais de TV, telefonia e internet.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question title--small" data-faq-question>
+                    Posso assinar sendo menor de idade?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Para poder acessar o catálogo completo que inclui conteúdo com classificação indicativa até 16 e 18, todos os usuários do Disney+ na América Latina devem atualizar as configurações de controle parental do perfil. É possível restringir o conteúdo de cada perfil e também adicionar um PIN de bloqueio. Os usuários que preferirem manter a configuração atual vão continuar aproveitando o Disney+ com a classificação indicativa até 14, podendo alterá-la a qualquer momento em "Editar Perfis".                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/logos/logo.png" alt="Disney+">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="Globo">
+                    <select>
+                        <option>English</option>
+                        <option selected>Português</option>
+                    </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Anúncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Dispositivos compatíveis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Sobre o Disney+</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                ® 2023 Studio Ghibli, Ghibli Company. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
+            </p>
+            <p class="text--small">
+                Ghibli é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Ghibli é comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+        </p>
+        </div>
+    </footer>
+
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>

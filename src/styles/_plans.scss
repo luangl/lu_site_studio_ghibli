@@ -1,0 +1,81 @@
+@use 'variaveis';
+
+.plans {
+    padding: 5.6vw;
+
+
+    @media (max-width: 768px) {
+        padding: 0;
+    }
+
+    h2 {
+        text-align: center;
+        color: variaveis.$corBotaoDentro;
+        @media (max-width: 768px) {
+            margin-top: 50px;
+        margin-bottom: -80px;
+        }
+
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        
+
+        @media (max-width: 768px) {
+            display: block;
+        }
+
+        @media (max-width: 1023px) {
+            display: block;
+        }
+
+        .button {
+            margin-top: 24px;
+        }
+        
+        &__item {
+            text-align: center;
+            justify-content: center;
+            padding: 44px 44px 44px;
+
+            @media (max-width: 1023px){
+                padding: 70px 44px 44px;
+                }
+
+            &:nth-child(2) {
+                background-image: url(../images/fundo_combo_plus.png); 
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 100%;
+                margin-bottom: -50px;
+            }
+
+            img {
+
+
+                @media (min-width: 1024px){
+                    width: 400px;
+                }
+                @media (max-width: 1023px) {
+                    width: 100%;
+                }
+                @media (max-width: 768px) {
+                    width: 100%;
+                }
+            }
+
+            strong {
+                display: block;
+                margin-top: 24px;
+            }
+        }
+
+    }
+
+    p {
+        text-align: center;
+    }
+}
